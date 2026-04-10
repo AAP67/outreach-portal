@@ -51,6 +51,93 @@ Respond ONLY in JSON (no markdown, no backticks):
 }`;
 
 export const DEFAULT_EXAMPLES = [
-  `Hi Matt, $600M+ raised, valuation approaching $2B, 3rd largest RIA custodian behind Schwab and Fidelity, and Hazel bringing AI directly into the advisor workflow - Altruist is scaling at the pace where the CEO needs a force multiplier who can context-switch between a financial model, a board deck, and a cross-functional execution gap in the same afternoon. I recently applied for the Chief of Staff role and wanted to share why I'm a fit: • Finance + Ops DNA: Software engineering at UBS, prop trading at OSTC, then 5th hire at Borderless Capital ($500M AUM) where I built the full ops backbone from scratch during a 5x growth phase - OKRs, financial modeling, board prep, cross-functional cadences, investor reporting. CFA Level 3 candidate. • AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools - so I engage substantively on AI strategy, not just facilitate the conversation. Happy to share more on how I'd approach the role. GitHub | LinkedIn 15 minutes this or next week? Resume attached.`,
-  `Hi Sam, $10M seed from a16z crypto, Paxos/Bridge/MoonPay already committed as issuers, and GENIUS Act compliance as the moat - Better Money is building the clearing layer that makes stablecoins fungible, the same infrastructure jump that turned fragmented 19th-century banknotes into a unified dollar. Timing couldn't be sharper. I'd love to explore how I can contribute. Quick context on fit: • Crypto-Native Ops: 5th hire at Borderless Capital, a crypto-native VC ($500M AUM). Built the full ops backbone from scratch during a 5x growth phase - OKRs, financial modeling, board prep, cross-functional cadences, LP reporting. Partnered directly with the Managing Partners and 25+ portfolio company founders (including stablecoin and DeFi projects) as de facto Chief of Staff. • AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools. I build systems, not just manage them. UC Berkeley Haas MBA, CFA Level 3 candidate, previously software engineering at UBS and prop trading at OSTC. I've operated at the intersection of crypto infrastructure, financial services, and high-growth ops - exactly where Better Money sits. GitHub | LinkedIn 15 minutes this or next week?`,
+  // 1. VC CoS — investor/fund ops heavy
+  `Hi Ian,
+
+$4B+ under management, 400+ founders backed from pre-seed through scale, and a portfolio thesis shifting hard into the AI frontier with bets on OpenAI, Hippocratic AI, and TogetherAI - the coordination complexity across network, portfolio, and LPs at this stage demands a CoS who's already operated inside a scaling investment firm, not just a startup.
+
+I recently applied for the Chief of Staff role and wanted to share why I'm a fit:
+
+• VC Ops DNA: 5th hire at Borderless Capital ($500M AUM), de facto Chief of Staff to the Managing Partners through a 5x growth phase. Built the full ops backbone from scratch - LP reporting, board prep, cross-functional cadences, financial modeling, and network coordination across 25+ portfolio company founders.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools. I use AI to build systems and automations daily - not just as a productivity layer.
+
+UC Berkeley Haas MBA, CFA Level 3 candidate, STEM undergrad. Happy to share how I'd approach multiplying your capacity across network intelligence, LP prep, and portfolio ops.
+
+15 minutes this or next week? Resume attached.`,
+
+  // 2. CEO CoS — finance + ops DNA
+  `Hi Matt,
+
+$600M+ raised, valuation approaching $2B, 3rd largest RIA custodian behind Schwab and Fidelity, and Hazel bringing AI directly into the advisor workflow - Altruist is scaling at the pace where the CEO needs a force multiplier who can context-switch between a financial model, a board deck, and a cross-functional execution gap in the same afternoon.
+
+I recently applied for the Chief of Staff role and wanted to share why I'm a fit:
+
+• Finance + Ops DNA: Software engineering at UBS, prop trading at OSTC, then 5th hire at Borderless Capital ($500M AUM) where I built the full ops backbone from scratch during a 5x growth phase - OKRs, financial modeling, board prep, cross-functional cadences, investor reporting. CFA Level 3 candidate.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools - so I engage substantively on AI strategy, not just facilitate the conversation.
+
+Happy to share more on how I'd approach the role.
+
+15 minutes this or next week? Resume attached.`,
+
+  // 3. BizOps — enterprise/AI governance
+  `Hi Brian,
+
+$4.8B KKR acquisition, a $1B revenue target by 2028, an OpenAI partnership embedding AI directly into Canvas, and Parchment scaling the credentialing layer - Instructure is in the phase where BizOps needs to connect strategy to execution across pricing, AI investment governance, and go-to-market at enterprise scale.
+
+I recently applied for the Senior Business Operations Manager role and wanted to share why I'm a fit:
+
+• Finance + Ops DNA: Software engineering at UBS, prop trading at OSTC, then 5th hire at Borderless Capital ($500M AUM) where I built the full ops backbone from scratch during a 5x growth phase - OKRs, financial modeling, board prep, cross-functional cadences, investor reporting. CFA Level 3 candidate.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools - so I can engage substantively on AI investment governance, not just facilitate the conversation.
+
+Happy to share more on how I'd approach scaling BizOps at Instructure.
+
+15 minutes this or next week? Resume attached.`,
+
+  // 4. Business Generalist — flexible role framing
+  `Hi Marco,
+
+$560M raised in under four years, valuation tripled to $3B in eight months, $50M+ ARR with 150% net revenue retention, and a Fortune 200 customer base from Booking.com to Allianz - Parloa is scaling at the pace where you need generalists who can own ambiguous, cross-functional problems end-to-end without a playbook.
+
+I recently applied for the Business Generalist role and wanted to share why I'm a fit:
+
+• Early-stage Ops + Finance: Software engineering at UBS, prop trading at OSTC, then 5th hire at Borderless Capital ($500M AUM) where I built the full ops backbone from scratch during a 5x growth phase - OKRs, financial modeling, board prep, cross-functional cadences, investor reporting. CFA Level 3 candidate.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). Shipped 8+ independent AI tools - I don't just strategize around AI, I build with it.
+
+Whether this maps to CoS, BizOps, or Strategic Finance, I've operated across all three and can plug in wherever the highest-leverage gap is.
+
+15 minutes this or next week? Resume attached.`,
+
+  // 5. Crypto-native — COO CoS
+  `Hi Shan,
+
+USDC scaling as a payments rail, stock trading live, Base growing as the onchain platform - Coinbase is running three company-defining bets simultaneously. The COO's Chief of Staff needs to be someone who understands the crypto ecosystem natively, not someone who'll need six months to get up to speed.
+
+I wanted to reach out and share why I'm a fit:
+
+• Early-stage Ops + Crypto Native: As the 5th hire at Borderless Capital ($500M AUM), I built the entire ops backbone from scratch during a 5x growth phase - OKRs, cross-functional cadences, vendor stacks, GTM processes. Partnered directly with the CEO and 25+ portfolio company founders as de facto Chief of Staff. This is a crypto-native fund - I've lived in the ecosystem, not just studied it.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI/Perplexity). I've shipped 8+ independent AI tools, including a Personal AI Platform - relevant as Coinbase invests heavily in automation across all three priorities.
+
+I don't just manage projects - I build the systems that scale without me.
+
+15 minutes this or next week? Resume attached.`,
+
+  // 6. BizOps — consumer/health/hardware
+  `Hi Matteo,
+
+Fresh $50M at a $1.5B valuation, Pod 5, a predictive AI agent, FDA filings for sleep apnea - Eight Sleep is crossing from consumer wellness into a regulated health platform. That kind of multi-surface complexity needs a generalist operator who's built the playbook before. That's been my entire career.
+
+I recently applied for Business Operations Manager role and wanted to share why I'm a fit:
+
+• Early-stage Ops: As the 5th hire at Borderless Capital ($500M AUM), I built the entire ops backbone from scratch during a 5x growth phase - OKRs, cross-functional cadences, vendor stacks, GTM processes. Took ambiguous 0-to-1 problems and shipped with minimal oversight.
+
+• AI-Native Builder: Currently at Handshake AI building LLM validation pipelines (partnering with OpenAI, Perplexity). I've shipped 8+ independent AI tools, including a Personal AI Platform.
+
+I don't just manage projects - I build the systems that make them unnecessary.
+
+15 minutes this or next week? Resume attached.`,
 ];
