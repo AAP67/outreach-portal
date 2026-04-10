@@ -48,9 +48,13 @@ export default function Portal() {
   // Load from localStorage
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) setExamples(JSON.parse(saved));
-      else setExamples(DEFAULT_EXAMPLES);
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const parsed = saved ? JSON.parse(saved) : null;
+    if (parsed?.length && parsed.some((e: string) => e.trim())) {
+      setExamples(parsed);
+}     else {
+      setExamples(DEFAULT_EXAMPLES);
+}
       const hist = localStorage.getItem(HISTORY_KEY);
       if (hist) setHistory(JSON.parse(hist));
     } catch {}
